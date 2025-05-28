@@ -1,0 +1,210 @@
+﻿Birim Adı;İnternet Adresi;HTTPS Var mı?;SSL Geçerli mi?;Sertifika Başlangıç;Sertifika Bitiş;Strict-Transport-Security;Content-Security-Policy;X-Frame-Options;X-Content-Type-Options;Referrer-Policy;A02 - Cryptographic Failure;A05 - Security Misconfiguration;A08 - Software/Data Integrity Failure;Güvenlik Skoru (0-5);CSV Injection
+ABDULLAH GÜL ÜNİVERSİTESİ;http://www.agu.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ;http://www.acibadem.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ;http://www.atu.edu.tr;True;True;9.04.2025 00:00;10.05.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ADIYAMAN ÜNİVERSİTESİ;http://www.adiyaman.edu.tr/;True;True;17.10.2024 00:00;23.10.2025 23:59;True;False;False;False;False;False;True;True;1;False
+AFYON KOCATEPE ÜNİVERSİTESİ;http://www.aku.edu.tr;True;True;20.09.2024 00:00;20.08.2025 23:59;True;False;False;False;False;False;True;True;1;False
+AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ;www.afsu.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ;http://www.agri.edu.tr;True;True;9.01.2025 00:00;9.02.2026 23:59;False;False;False;False;False;False;True;True;0;False
+AKDENİZ ÜNİVERSİTESİ;http://www.akdeniz.edu.tr;True;True;6.06.2024 00:00;11.06.2025 23:59;True;False;False;False;False;False;True;True;1;False
+AKSARAY ÜNİVERSİTESİ;www.aksaray.edu.tr;True;True;17.05.2025 20:31;15.08.2025 21:29;False;False;True;False;False;False;True;True;1;False
+ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ;http://www.alanya.edu.tr/;True;True;8.05.2025 12:31;6.08.2025 12:31;False;False;False;False;False;False;True;True;0;False
+ALANYA ÜNİVERSİTESİ;"http://www.alanyauniversity.edu
+.tr";False;False;;;False;False;False;False;False;True;True;True;0;False
+ALTINBAŞ ÜNİVERSİTESİ;http://www.altinbas.edu.tr/tr;True;True;14.01.2025 00:00;14.02.2026 23:59;True;True;True;True;False;False;False;False;4;False
+AMASYA ÜNİVERSİTESİ;http://www.amasya.edu.tr;True;True;26.08.2024 00:00;26.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ANADOLU ÜNİVERSİTESİ;http://www.anadolu.edu.tr/;True;True;8.05.2025 15:23;9.06.2026 15:23;True;False;True;True;True;False;False;True;4;False
+ANKA TEKNOLOJİ ÜNİVERSİTESİ;-;False;False;;;False;False;False;False;False;True;True;True;0;True
+ANKARA BİLİM ÜNİVERSİTESİ;www.ankarabilim.edu.tr;True;True;12.12.2024 00:00;11.01.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ;https://hacibayram.edu.tr;True;True;29.07.2024 09:37;30.08.2025 09:37;False;False;False;False;False;False;True;True;0;False
+ANKARA MEDİPOL ÜNİVERSİTESİ;www.ankaramedipol.edu.tr;True;True;23.03.2025 13:32;21.06.2025 14:31;False;False;True;True;True;False;False;True;3;False
+ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ;http://www.mgu.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ;http://www.asbu.edu.tr/;True;True;31.01.2025 00:00;4.02.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ANKARA ÜNİVERSİTESİ;http://www.ankara.edu.tr;True;True;29.04.2025 00:00;14.05.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ;www.aybu.edu.tr;True;True;8.10.2024 00:00;8.11.2025 23:59;True;False;False;False;False;False;True;True;1;False
+ANTALYA BELEK ÜNİVERSİTESİ;www.belek.edu.tr;True;True;17.02.2025 05:59;17.02.2026 05:59;True;False;False;False;False;False;True;True;1;False
+ANTALYA BİLİM ÜNİVERSİTESİ;http://www.antalya.edu.tr/;True;True;7.06.2024 00:00;6.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ARDAHAN ÜNİVERSİTESİ;http://www.ardahan.edu.tr;True;True;19.03.2025 00:00;19.04.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ARTVİN ÇORUH ÜNİVERSİTESİ;http://www.artvin.edu.tr;True;True;6.05.2025 20:39;4.08.2025 21:35;True;False;True;True;True;False;False;True;4;False
+ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU;http://www.adiguzel.edu.tr/;True;True;14.04.2025 00:00;14.04.2026 23:59;False;False;False;False;False;False;True;True;0;False
+ATATÜRK ÜNİVERSİTESİ;http://www.atauni.edu.tr;True;True;7.05.2025 14:18;5.08.2025 14:18;True;True;True;True;False;False;False;False;4;False
+ATILIM ÜNİVERSİTESİ;www.atilim.edu.tr;True;True;9.10.2024 09:50;10.11.2025 09:50;True;True;True;True;True;False;False;False;5;False
+AVRASYA ÜNİVERSİTESİ;www.avrasya.edu.tr;True;True;31.01.2025 00:00;1.01.2026 23:59;False;False;False;False;False;False;True;True;0;False
+AYDIN ADNAN MENDERES ÜNİVERSİTESİ;http://www.adu.edu.tr;True;True;3.01.2025 00:00;3.02.2026 23:59;False;False;False;False;False;False;True;True;0;False
+BAHÇEŞEHİR ÜNİVERSİTESİ;http://www.bahcesehir.edu.tr;True;True;24.12.2024 14:09;25.01.2026 14:09;True;False;True;True;False;False;False;True;3;False
+BALIKESİR ÜNİVERSİTESİ;http://www.balikesir.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ;http://www.bandirma.edu.tr;True;True;25.11.2024 00:00;25.11.2025 23:59;False;False;True;False;False;False;True;True;1;False
+BARTIN ÜNİVERSİTESİ;http://www.bartin.edu.tr/;True;True;5.09.2024 00:00;6.10.2025 23:59;False;False;True;False;False;False;True;True;1;False
+BAŞKENT ÜNİVERSİTESİ;http://www.baskent.edu.tr;True;True;26.03.2025 00:00;3.04.2026 23:59;False;False;True;True;True;False;False;True;3;False
+BATMAN ÜNİVERSİTESİ;http://www.batman.edu.tr;True;True;6.01.2025 00:00;3.12.2025 23:59;True;False;False;False;True;False;True;True;2;False
+BAYBURT ÜNİVERSİTESİ;https://bayburt.edu.tr;True;True;18.07.2024 00:00;26.07.2025 23:59;False;False;False;False;False;False;True;True;0;False
+BEYKOZ ÜNİVERSİTESİ;www.beykoz.edu.tr;True;True;5.08.2024 00:00;5.08.2025 23:59;True;False;True;True;False;False;False;True;3;False
+BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ;http://www.bezmialem.edu.tr/;False;False;;;False;False;False;False;False;True;True;True;0;False
+BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ;http://www.bilecik.edu.tr/;True;True;30.05.2024 13:47;30.05.2025 13:47;True;False;False;False;False;False;True;True;1;False
+BİNGÖL ÜNİVERSİTESİ;http://www.bingol.edu.tr;True;True;3.12.2024 00:00;3.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+BİRUNİ ÜNİVERSİTESİ;http://www.biruni.edu.tr/;True;True;4.11.2024 00:00;5.12.2025 23:59;False;False;True;False;False;False;True;True;1;False
+BİTLİS EREN ÜNİVERSİTESİ;www.beu.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+BOĞAZİÇİ ÜNİVERSİTESİ;https://www.bogazici.edu.tr;True;True;13.08.2024 00:00;13.08.2025 23:59;False;False;False;False;False;False;True;True;0;False
+BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ;http://www.ibu.edu.tr/;True;True;14.05.2025 00:00;9.03.2026 23:59;False;False;False;False;False;False;True;True;0;False
+BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ;http://www.mehmetakif.edu.tr;True;True;3.09.2024 00:00;22.08.2025 23:59;False;False;False;False;False;False;True;True;0;False
+BURSA TEKNİK ÜNİVERSİTESİ;http://btu.edu.tr/;True;True;20.12.2024 11:34;21.01.2026 11:34;False;False;False;False;False;False;True;True;0;False
+BURSA ULUDAĞ ÜNİVERSİTESİ;http://www.uludag.edu.tr/;True;True;13.08.2024 00:00;4.09.2025 23:59;True;False;False;False;False;False;True;True;1;False
+ÇAĞ ÜNİVERSİTESİ;http://www.cag.edu.tr/;True;True;6.05.2025 23:49;4.08.2025 23:49;False;False;False;False;False;False;True;True;0;False
+ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ;www.comu.edu.tr;True;True;30.09.2024 00:00;31.10.2025 23:59;True;False;True;True;True;False;False;True;4;False
+ÇANKAYA ÜNİVERSİTESİ;http://www.cankaya.edu.tr/;True;True;7.06.2024 00:00;23.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ÇANKIRI KARATEKİN ÜNİVERSİTESİ;www.karatekin.edu.tr;True;True;15.05.2025 05:01;13.08.2025 05:01;False;False;False;False;False;False;True;True;0;True
+ÇUKUROVA ÜNİVERSİTESİ;www.cu.edu.tr;True;True;4.10.2024 14:15;5.11.2025 14:15;True;False;True;True;False;False;False;True;3;False
+DEMİROĞLU BİLİM ÜNİVERSİTESİ;http://www.demiroglu.bilim.edu. tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+DİCLE ÜNİVERSİTESİ;www.dicle.edu.tr;True;True;5.05.2025 12:25;5.05.2026 12:25;False;False;False;False;False;False;True;True;0;False
+DOĞUŞ ÜNİVERSİTESİ;http://www.dogus.edu.tr;True;True;3.08.2024 08:27;19.08.2025 06:45;True;False;True;True;True;False;False;True;4;False
+DOKUZ EYLÜL ÜNİVERSİTESİ;http://www.deu.edu.tr;True;True;17.05.2024 00:00;17.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+DÜZCE ÜNİVERSİTESİ;http://www.duzce.edu.tr/;True;True;9.04.2025 00:00;10.05.2026 23:59;False;False;False;False;False;False;True;True;0;False
+EGE ÜNİVERSİTESİ;http://www.ege.edu.tr;True;True;31.05.2024 00:00;31.05.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ERCİYES ÜNİVERSİTESİ;http://www.erciyes.edu.tr;True;True;3.07.2024 00:00;3.08.2025 23:59;False;False;True;False;False;False;True;True;1;False
+ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ;http://www.ebyu.edu.tr;True;True;1.10.2024 00:00;8.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ERZURUM TEKNİK ÜNİVERSİTESİ;http://www.erzurum.edu.tr/;True;True;3.04.2025 07:06;2.07.2025 07:06;False;False;False;False;False;False;True;True;0;False
+ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ;http://www.ogu.edu.tr;True;True;4.07.2024 00:00;2.08.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ESKİŞEHİR TEKNİK ÜNİVERSİTESİ;https://www.eskisehir.edu.tr/;True;True;11.06.2024 11:32;11.06.2025 11:32;True;False;False;False;False;False;True;True;1;True
+FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ;www.fsm.edu.tr;True;True;21.03.2025 08:53;22.04.2026 08:53;False;False;False;False;False;False;True;True;0;False
+FENERBAHÇE ÜNİVERSİTESİ;www.fbu.edu.tr;True;True;14.11.2024 00:00;14.11.2025 23:59;False;False;False;False;False;False;True;True;0;False
+FIRAT ÜNİVERSİTESİ;http://www.firat.edu.tr/;True;True;6.12.2024 00:00;5.01.2026 23:59;False;False;False;False;False;False;True;True;0;True
+GALATASARAY ÜNİVERSİTESİ;http://www.gsu.edu.tr;True;True;17.03.2025 00:00;15.04.2026 23:59;True;False;True;False;False;False;True;True;2;False
+GAZİ ÜNİVERSİTESİ;http://gazi.edu.tr/;True;True;8.12.2024 09:51;9.01.2026 09:51;True;True;True;True;True;False;False;False;5;False
+GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ;http://www.gibtu.edu.tr/;True;True;29.05.2024 11:42;30.06.2025 11:42;True;False;True;False;False;False;True;True;2;False
+GAZİANTEP ÜNİVERSİTESİ;http://www.gantep.edu.tr;True;True;11.03.2025 00:00;12.03.2026 23:59;True;True;True;False;False;False;True;False;3;False
+GEBZE TEKNİK ÜNİVERSİTESİ;www.gtu.edu.tr;True;True;13.05.2025 06:36;13.05.2026 06:36;False;False;False;False;False;False;True;True;0;False
+GİRESUN ÜNİVERSİTESİ;http://www.giresun.edu.tr/;True;True;23.12.2024 00:00;22.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+GÜMÜŞHANE ÜNİVERSİTESİ;http://www.gumushane.edu.tr;True;True;9.10.2024 00:00;8.10.2025 23:59;False;False;False;False;False;False;True;True;0;False
+HACETTEPE ÜNİVERSİTESİ;http://hacettepe.edu.tr;True;True;2.08.2024 00:00;2.09.2025 23:59;True;False;False;False;False;False;True;True;1;False
+HAKKARİ ÜNİVERSİTESİ;www.hakkari.edu.tr / www.hu.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;True
+HALİÇ ÜNİVERSİTESİ;www.halic.edu.tr;True;True;26.12.2024 12:52;27.01.2026 12:52;True;True;True;True;False;False;False;False;4;False
+HARRAN ÜNİVERSİTESİ;http://www.harran.edu.tr/;True;True;6.05.2024 00:00;6.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+HASAN KALYONCU ÜNİVERSİTESİ;www.hku.edu.tr;True;True;17.05.2025 13:12;15.08.2025 13:12;False;False;False;False;False;False;True;True;0;False
+HATAY MUSTAFA KEMAL ÜNİVERSİTESİ;http://www.mku.edu.tr;True;True;28.11.2024 00:00;29.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+HİTİT ÜNİVERSİTESİ;http://www.hitit.edu.tr/;True;True;25.11.2024 00:00;25.11.2025 23:59;True;False;False;False;False;False;True;True;1;False
+IĞDIR ÜNİVERSİTESİ;http://www.igdir.edu.tr;True;True;6.04.2025 19:20;5.07.2025 19:20;False;False;False;False;False;False;True;True;0;False
+ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ;https://isparta.edu.tr/;True;True;21.01.2025 00:00;1.02.2026 23:59;False;False;True;False;False;False;True;True;1;False
+IŞIK ÜNİVERSİTESİ;http://www.isikun.edu.tr/;True;True;4.11.2024 00:00;7.11.2025 23:59;False;False;True;True;False;False;False;True;2;False
+İBN HALDUN ÜNİVERSİTESİ;www.ihu.edu.tr;True;True;28.06.2024 07:26;30.07.2025 07:26;False;False;False;False;False;False;True;True;0;False
+İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ;http://www.bilkent.edu.tr/;True;True;31.07.2024 00:00;13.08.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İNÖNÜ ÜNİVERSİTESİ;http://www.inonu.edu.tr/;False;False;;;False;False;False;False;False;True;True;True;0;True
+İSKENDERUN TEKNİK ÜNİVERSİTESİ;www.iste.edu.tr;True;True;16.01.2025 00:00;8.01.2026 23:59;False;False;True;True;False;False;False;True;2;False
+İSTANBUL AREL ÜNİVERSİTESİ;http://www.arel.edu.tr;True;True;21.05.2024 00:00;27.05.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İSTANBUL ATLAS ÜNİVERSİTESİ;www.atlas.edu.tr;True;True;10.06.2024 00:00;9.07.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İSTANBUL AYDIN ÜNİVERSİTESİ;http://www.aydin.edu.tr;True;True;13.05.2025 09:43;11.08.2025 10:43;False;False;True;True;True;False;False;True;3;False
+İSTANBUL BEYKENT ÜNİVERSİTESİ;www.beykent.edu.tr;True;True;5.01.2025 12:48;5.01.2026 11:49;True;False;True;True;True;False;False;True;4;False
+İSTANBUL BİLGİ ÜNİVERSİTESİ;www.bilgi.edu.tr;True;True;26.09.2024 00:00;26.09.2025 23:59;True;True;True;True;True;False;False;False;5;False
+İSTANBUL ESENYURT ÜNİVERSİTESİ;http://www.esenyurt.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+İSTANBUL GALATA ÜNİVERSİTESİ;www.galata.edu.tr;True;True;3.03.2025 22:55;1.06.2025 22:55;False;False;False;False;False;False;True;True;0;False
+İSTANBUL GEDİK ÜNİVERSİTESİ;www.gedik.edu.tr;True;True;10.05.2025 11:50;8.08.2025 12:49;False;False;False;False;False;False;True;True;0;False
+İSTANBUL GELİŞİM ÜNİVERSİTESİ;www.gelisim.edu.tr;True;True;14.01.2025 00:00;25.12.2025 23:59;False;False;True;False;False;False;True;True;1;False
+İSTANBUL KENT ÜNİVERSİTESİ;www.kent.edu.tr;True;True;28.06.2024 00:00;27.06.2025 23:59;True;False;False;False;False;False;True;True;1;True
+İSTANBUL KÜLTÜR ÜNİVERSİTESİ;www.iku.edu.tr;True;True;8.08.2024 00:00;29.08.2025 23:59;False;False;False;True;False;False;True;True;1;False
+İSTANBUL MEDENİYET ÜNİVERSİTESİ;http://www.medeniyet.edu.tr;True;True;18.11.2024 00:00;1.12.2025 23:59;False;False;True;False;False;False;True;True;1;False
+İSTANBUL MEDİPOL ÜNİVERSİTESİ;www.medipol.edu.tr;True;True;31.03.2025 10:33;29.06.2025 11:33;False;False;True;True;False;False;False;True;2;False
+İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ;http://www.nisantasi.edu.tr;True;True;21.04.2025 20:33;20.07.2025 21:31;False;False;True;False;False;False;True;True;1;False
+İSTANBUL OKAN ÜNİVERSİTESİ;www.okan.edu.tr;True;True;8.05.2025 07:29;9.06.2026 07:29;False;False;False;False;False;False;True;True;0;False
+İSTANBUL RUMELİ ÜNİVERSİTESİ;www.rumeli.edu.tr;True;True;2.05.2025 22:16;31.07.2025 23:16;True;False;True;True;True;False;False;True;4;False
+İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ;http://www.izu.edu.tr/;True;True;19.12.2024 00:00;18.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İSTANBUL SAĞLIK VE SOSYAL BİLİMLER MESLEK YÜKSEKOKULU;www.issb.edu.tr;True;True;28.03.2025 23:00;27.06.2025 00:00;False;False;True;True;False;False;False;True;2;False
+İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ;www.istun.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU;www.sisli.edu.tr;True;True;6.02.2025 00:00;6.02.2026 23:59;False;False;False;False;False;False;True;True;0;False
+İSTANBUL TEKNİK ÜNİVERSİTESİ;http://www.itu.edu.tr;True;True;18.07.2024 00:00;18.08.2025 23:59;True;False;True;True;True;False;False;True;4;False
+İSTANBUL TİCARET ÜNİVERSİTESİ;http://www.ticaret.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+İSTANBUL TOPKAPI ÜNİVERSİTESİ;www.topkapi.edu.tr;True;True;3.05.2024 07:02;4.06.2025 07:02;False;False;False;False;False;False;True;True;0;False
+İSTANBUL ÜNİVERSİTESİ;http://www.istanbul.edu.tr;True;True;10.05.2024 00:00;10.06.2025 23:59;True;False;False;True;False;False;True;True;2;False
+İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA;https://iuc.edu.tr;True;True;23.01.2025 12:43;23.01.2026 12:43;False;False;True;True;False;False;False;True;2;False
+İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ;www.yeniyuzyil.edu.tr;True;True;20.12.2024 00:00;19.01.2026 23:59;True;False;False;False;False;False;True;True;1;False
+İSTANBUL 29 MAYIS ÜNİVERSİTESİ;http://www.29mayis.edu.tr;True;True;10.03.2025 00:00;26.03.2026 23:59;True;False;True;False;False;False;True;True;2;False
+İSTİNYE ÜNİVERSİTESİ;www.istinye.edu.tr;True;True;8.11.2024 00:00;23.09.2025 23:59;False;False;True;True;False;False;False;True;2;False
+İZMİR BAKIRÇAY ÜNİVERSİTESİ;bakircay.edu.tr;True;True;2.09.2024 00:00;3.10.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İZMİR DEMOKRASİ ÜNİVERSİTESİ;http://www.idu.edu.tr;True;True;21.10.2024 11:38;21.10.2025 11:38;False;False;False;False;False;False;True;True;0;False
+İZMİR EKONOMİ ÜNİVERSİTESİ;www.ieu.edu.tr;True;True;13.03.2025 08:03;3.04.2026 10:10;False;False;False;False;False;False;True;True;0;False
+İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ;http://www.ikc.edu.tr/;True;True;5.08.2024 00:00;5.08.2025 23:59;False;False;False;False;False;False;True;True;0;True
+İZMİR KAVRAM MESLEK YÜKSEKOKULU;www.kavram.edu.tr;True;True;16.01.2025 08:03;17.02.2026 08:03;True;False;True;True;True;False;False;True;4;True
+İZMİR TINAZTEPE ÜNİVERSİTESİ;www.tinaztepe.edu.tr;True;True;26.09.2024 00:00;26.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ;http://www.iyte.edu.tr/;False;False;;;False;False;False;False;False;True;True;True;0;False
+KADİR HAS ÜNİVERSİTESİ;http://www.khas.edu.tr;True;True;2.07.2024 00:00;24.07.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KAFKAS ÜNİVERSİTESİ;http://www.kafkas.edu.tr;True;True;10.06.2024 00:00;9.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ;www.istiklal.edu.tr;True;True;25.07.2024 09:02;25.07.2025 09:02;False;False;False;False;False;False;True;True;0;False
+KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ;www.ksu.edu.tr;True;True;7.04.2025 00:00;8.05.2026 23:59;False;False;False;False;False;False;True;True;0;False
+KAPADOKYA ÜNİVERSİTESİ;www.kapadokya.edu.tr;True;True;12.04.2025 06:48;11.07.2025 06:48;False;False;True;False;False;False;True;True;1;False
+KARABÜK ÜNİVERSİTESİ;http://www.karabuk.edu.tr/;True;True;6.03.2025 00:00;5.04.2026 23:59;True;False;False;False;False;False;True;True;1;False
+KARADENİZ TEKNİK ÜNİVERSİTESİ;http://www.ktu.edu.tr;True;True;6.08.2024 00:00;6.09.2025 23:59;True;True;True;True;True;False;False;False;5;False
+KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ;http://www.kmu.edu.tr;True;True;20.09.2024 00:00;21.10.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KASTAMONU ÜNİVERSİTESİ;http://www.kastamonu.edu.tr/ind ex.php/tr/;True;True;13.06.2024 00:00;24.05.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KAYSERİ ÜNİVERSİTESİ;http://www.kayseri.edu.tr;True;True;18.07.2024 00:00;31.07.2025 23:59;False;False;True;False;False;False;True;True;1;False
+KIRIKKALE ÜNİVERSİTESİ;http://kku.edu.tr;True;True;18.09.2024 00:00;18.10.2025 23:59;True;False;False;False;False;False;True;True;1;False
+KIRKLARELİ ÜNİVERSİTESİ;http://www.klu.edu.tr/;True;True;4.06.2024 00:00;3.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ;www.ahievran.edu.tr;True;True;13.05.2025 00:00;13.06.2026 23:59;True;False;True;True;True;False;False;True;4;False
+KİLİS 7 ARALIK ÜNİVERSİTESİ;www.kilis.edu.tr;True;True;17.07.2024 13:52;17.07.2025 13:52;False;False;False;False;False;False;True;True;0;False
+KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ;www.kocaelisaglik.edu.tr;True;True;24.10.2024 00:00;24.10.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KOCAELİ ÜNİVERSİTESİ;http://www.kocaeli.edu.tr/;False;False;;;False;False;False;False;False;True;True;True;0;False
+KOÇ ÜNİVERSİTESİ;http://www.ku.edu.tr;True;True;16.01.2025 00:00;14.02.2026 23:59;False;False;False;False;False;False;True;True;0;True
+KONYA GIDA VE TARIM ÜNİVERSİTESİ;http://www.gidatarim.edu.tr/;True;True;11.11.2024 00:00;12.12.2025 23:59;False;False;False;False;False;False;True;True;0;True
+KONYA TEKNİK ÜNİVERSİTESİ;http://www.ktun.edu.tr/;True;True;11.12.2024 00:00;30.10.2025 23:59;False;False;True;False;False;False;True;True;1;True
+KTO KARATAY ÜNİVERSİTESİ;http://www.karatay.edu.tr;True;True;2.05.2025 14:50;31.07.2025 15:49;False;False;False;False;False;False;True;True;0;False
+KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ;http://dpu.edu.tr;True;True;5.11.2024 00:00;6.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ;http://www.ksbu.edu.tr/;True;True;12.09.2024 00:00;14.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+LOKMAN HEKİM ÜNİVERSİTESİ;www.lokmanhekim.edu.tr;True;True;8.11.2024 00:00;7.11.2025 23:59;False;False;False;False;False;False;True;True;0;False
+MALATYA TURGUT ÖZAL ÜNİVERSİTESİ;www.ozal.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+MALTEPE ÜNİVERSİTESİ;http://www.maltepe.edu.tr/;True;True;17.05.2025 15:37;15.08.2025 16:35;False;False;False;False;False;False;True;True;0;False
+MANİSA CELÂL BAYAR ÜNİVERSİTESİ;www.cbu.edu.tr;True;True;17.05.2025 05:22;15.08.2025 05:22;True;False;False;False;False;False;True;True;1;False
+MARDİN ARTUKLU ÜNİVERSİTESİ;http://www.artuklu.edu.tr/;True;True;31.05.2024 00:00;27.05.2025 23:59;True;False;False;False;False;False;True;True;1;False
+MARMARA ÜNİVERSİTESİ;http://www.marmara.edu.tr;True;True;13.08.2024 00:00;17.08.2025 23:59;False;True;True;True;False;False;False;True;3;False
+MEF ÜNİVERSİTESİ;www.mef.edu.tr;True;True;12.05.2025 13:49;10.08.2025 13:49;True;False;False;False;False;False;True;True;1;False
+MERSİN ÜNİVERSİTESİ;http://www.mersin.edu.tr/idari/g enel-sekreterlik;True;True;18.02.2025 00:00;21.03.2026 23:59;False;False;False;False;False;False;True;True;0;False
+MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ;https://www.msgsu.edu.tr;True;True;24.05.2024 12:26;24.05.2025 12:26;False;True;False;False;False;False;True;True;1;False
+MUDANYA ÜNİVERSİTESİ;https://mudanya.edu.tr;True;True;18.05.2025 14:22;16.08.2025 14:22;False;False;False;False;False;False;True;True;0;False
+MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ;http://www.mu.edu.tr/;True;True;5.08.2024 00:00;3.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+MUNZUR ÜNİVERSİTESİ;www.munzur.edu.tr;True;True;8.07.2024 00:00;13.07.2025 23:59;False;False;False;False;False;False;True;True;0;False
+MUŞ ALPARSLAN ÜNİVERSİTESİ;www.alparslan.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+NECMETTİN ERBAKAN ÜNİVERSİTESİ;http://www.erbakan.edu.tr;True;True;13.04.2025 01:38;12.07.2025 02:38;True;False;True;True;False;False;False;True;3;False
+NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ;http://www.nevsehir.edu.tr/;True;True;27.08.2024 12:33;27.08.2025 12:33;False;False;False;False;False;False;True;True;0;False
+NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ;http://www.ohu.edu.tr/;True;True;1.11.2024 14:50;3.12.2025 14:50;False;False;False;False;False;False;True;True;0;False
+NUH NACİ YAZGAN ÜNİVERSİTESİ;http://www.nny.edu.tr;True;True;16.09.2024 00:00;16.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ONDOKUZ MAYIS ÜNİVERSİTESİ;http://www.omu.edu.tr/;True;True;27.02.2025 00:00;30.03.2026 23:59;False;False;True;True;False;False;False;True;2;True
+ORDU ÜNİVERSİTESİ;http://www.odu.edu.tr;True;True;7.10.2024 08:39;7.10.2025 08:39;False;False;False;False;False;False;True;True;0;True
+ORTA DOĞU TEKNİK ÜNİVERSİTESİ;http://www.metu.edu.tr;True;True;8.08.2024 00:00;13.08.2025 23:59;False;False;True;True;False;False;False;True;2;False
+OSMANİYE KORKUT ATA ÜNİVERSİTESİ;http://www.osmaniye.edu.tr;True;True;20.12.2024 00:00;19.12.2025 23:59;False;False;False;False;False;False;True;True;0;False
+OSTİM TEKNİK ÜNİVERSİTESİ;www.ostimteknik.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+ÖZYEĞİN ÜNİVERSİTESİ;www.ozyegin.edu.tr;True;True;21.10.2024 00:00;21.11.2025 23:59;True;True;True;True;False;False;False;False;4;False
+PAMUKKALE ÜNİVERSİTESİ;http://www.pau.edu.tr;True;True;1.04.2025 23:10;30.06.2025 23:10;True;False;False;False;False;False;True;True;1;False
+PİRİ REİS ÜNİVERSİTESİ;http://www.pirireis.edu.tr;True;True;7.01.2025 16:49;8.02.2026 16:49;False;False;False;False;False;False;True;True;0;False
+RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ;erdogan.edu.tr;True;True;30.10.2024 00:00;30.11.2025 23:59;False;False;False;False;False;False;True;True;0;False
+SABANCI ÜNİVERSİTESİ;http://www.sabanciuniv.edu;True;True;7.05.2025 10:41;8.06.2026 10:41;True;False;True;True;False;False;False;True;3;False
+SAĞLIK BİLİMLERİ ÜNİVERSİTESİ;http://www.sbu.edu.tr;True;True;12.12.2024 09:58;13.01.2026 09:58;False;False;False;False;False;False;True;True;0;False
+SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ;www.subu.edu.tr;True;True;24.12.2024 00:00;24.12.2025 23:59;True;False;True;True;False;False;False;True;3;True
+SAKARYA ÜNİVERSİTESİ;http://www.sakarya.edu.tr;True;True;23.07.2024 00:00;23.08.2025 23:59;False;False;False;False;False;False;True;True;0;True
+SAMSUN ÜNİVERSİTESİ;www.samsun.edu.tr;True;True;10.04.2025 23:03;10.07.2025 00:02;False;False;False;False;False;False;True;True;0;False
+SANKO ÜNİVERSİTESİ;http://www.sanko.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+SELÇUK ÜNİVERSİTESİ;http://www.selcuk.edu.tr/;True;True;12.12.2024 00:00;12.01.2026 23:59;False;False;False;False;False;False;True;True;0;True
+SİİRT ÜNİVERSİTESİ;http://siirt.edu.tr;True;True;18.03.2025 00:00;18.04.2026 23:59;True;False;False;False;False;False;True;True;1;False
+SİNOP ÜNİVERSİTESİ;http://www.sinop.edu.tr;True;True;12.08.2024 00:00;9.08.2025 23:59;False;True;True;False;False;False;True;True;2;False
+SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ;http://www.sivas.edu.tr/;True;True;3.12.2024 00:00;3.12.2025 23:59;True;True;True;True;True;False;False;False;5;False
+SİVAS CUMHURİYET ÜNİVERSİTESİ;http://www.cumhuriyet.edu.tr;True;True;4.12.2024 12:53;5.01.2026 12:53;False;False;False;False;False;False;True;True;0;False
+SÜLEYMAN DEMİREL ÜNİVERSİTESİ;http://www.sdu.edu.tr/;True;True;18.09.2024 00:00;1.06.2025 23:59;False;False;False;False;False;False;True;True;0;False
+ŞIRNAK ÜNİVERSİTESİ;http://www.sirnak.edu.tr;True;True;2.01.2025 00:00;2.02.2026 23:59;True;False;False;False;False;False;True;True;1;False
+TARSUS ÜNİVERSİTESİ;www.tarsus.edu.tr;True;True;18.12.2024 00:00;18.01.2026 23:59;True;True;False;False;False;False;True;False;2;False
+TED ÜNİVERSİTESİ;http://www.tedu.edu.tr;True;True;6.02.2025 13:13;10.03.2026 13:13;True;False;True;True;False;False;False;True;3;False
+TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ;http://www.nku.edu.tr;True;True;12.06.2024 06:58;12.06.2025 06:58;False;False;False;False;False;False;True;True;0;False
+TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ;www.etu.edu.tr;True;True;26.11.2024 00:00;27.12.2025 23:59;False;False;True;True;False;False;False;True;2;False
+TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ;www.gop.edu.tr;True;True;31.07.2024 00:00;30.07.2025 23:59;False;False;False;False;False;False;True;True;0;False
+TOROS ÜNİVERSİTESİ;www.toros.edu.tr;True;True;19.04.2025 01:16;18.07.2025 02:14;False;False;True;True;False;False;False;True;2;False
+TRABZON ÜNİVERSİTESİ;www.trabzon.edu.tr;True;True;17.03.2025 00:00;17.04.2026 23:59;False;False;False;False;False;False;True;True;0;False
+TRAKYA ÜNİVERSİTESİ;http://www.trakya.edu.tr/;True;True;8.05.2025 06:48;9.06.2026 06:48;True;False;False;False;False;False;True;True;1;True
+TÜRK HAVA KURUMU ÜNİVERSİTESİ;http://www.thk.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+TÜRK-ALMAN ÜNİVERSİTESİ;http://www.tau.edu.tr/;True;True;19.09.2024 00:00;21.09.2025 23:59;False;False;False;False;False;False;True;True;0;False
+TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ;-;False;False;;;False;False;False;False;False;True;True;True;0;True
+TÜRK-JAPON BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ;-;False;False;;;False;False;False;False;False;True;True;True;0;True
+UFUK ÜNİVERSİTESİ;http://www.ufuk.edu.tr;True;True;18.05.2025 18:57;16.08.2025 18:57;False;False;False;False;False;False;True;True;0;False
+UŞAK ÜNİVERSİTESİ;http://www.usak.edu.tr;True;True;20.09.2024 00:00;21.10.2025 23:59;True;False;False;False;False;False;True;True;1;False
+ÜSKÜDAR ÜNİVERSİTESİ;http://www.uskudar.edu.tr;True;True;16.04.2025 11:52;15.07.2025 11:52;False;False;False;False;False;False;True;True;0;False
+VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ;http://www.yyu.edu.tr/;False;False;;;False;False;False;False;False;True;True;True;0;False
+YALOVA ÜNİVERSİTESİ;http://www.yalova.edu.tr/rektorl uk;True;True;9.09.2024 00:00;10.10.2025 23:59;True;False;False;False;False;False;True;True;1;True
+YAŞAR ÜNİVERSİTESİ;http://www.yasar.edu.tr;True;True;1.11.2024 00:00;1.12.2025 23:59;False;False;True;True;True;False;False;True;3;False
+YEDİTEPE ÜNİVERSİTESİ;http://www.yeditepe.edu.tr/;True;True;5.08.2024 00:00;8.08.2025 23:59;True;False;True;True;True;False;False;True;4;False
+YILDIZ TEKNİK ÜNİVERSİTESİ;http://www.yildiz.edu.tr;True;True;17.10.2024 00:00;17.11.2025 23:59;False;False;True;True;False;False;False;True;2;False
+YOZGAT BOZOK ÜNİVERSİTESİ;http://www.bozok.edu.tr/;True;True;26.11.2024 00:00;21.10.2025 23:59;False;False;False;False;False;False;True;True;0;False
+YÜKSEK İHTİSAS ÜNİVERSİTESİ;www.yuksekihtisasuniversitesi.e du.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
+ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ;https://www.beun.edu.tr;False;False;;;False;False;False;False;False;True;True;True;0;False
