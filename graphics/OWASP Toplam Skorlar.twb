@@ -1,0 +1,2716 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='FINAL_WITH_SCORE' inline='true' name='federated.1mwa1701ulrrnu0zsmfla10bi33j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FINAL_WITH_SCORE' name='textscan.0uasha11fuawg8189i79z0vhxlfh'>
+            <connection class='textscan' directory='C:/Users/arife/OneDrive/Masaüstü/BüyükVeriProje/bigDataProject' filename='FINAL_WITH_SCORE.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0uasha11fuawg8189i79z0vhxlfh' name='FINAL_WITH_SCORE.csv' table='[FINAL_WITH_SCORE#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+            <column datatype='string' name='Birim Adı' ordinal='0' />
+            <column datatype='string' name='İnternet Adresi' ordinal='1' />
+            <column datatype='integer' name='HTTPS Var mı?' ordinal='2' />
+            <column datatype='integer' name='SSL Geçerli mi?' ordinal='3' />
+            <column datatype='datetime' name='Sertifika Başlangıç' ordinal='4' />
+            <column datatype='datetime' name='Sertifika Bitiş' ordinal='5' />
+            <column datatype='integer' name='Strict-Transport-Security' ordinal='6' />
+            <column datatype='integer' name='Content-Security-Policy' ordinal='7' />
+            <column datatype='integer' name='X-Frame-Options' ordinal='8' />
+            <column datatype='integer' name='X-Content-Type-Options' ordinal='9' />
+            <column datatype='integer' name='Referrer-Policy' ordinal='10' />
+            <column datatype='integer' name='A02 - Cryptographic Failure' ordinal='11' />
+            <column datatype='integer' name='A05 - Security Misconfiguration' ordinal='12' />
+            <column datatype='integer' name='A08 - Software/Data Integrity Failure' ordinal='13' />
+            <column datatype='integer' name='Güvenlik Skoru (0-5)' ordinal='14' />
+            <column datatype='integer' name='A01 - Broken Access Control' ordinal='15' />
+            <column datatype='integer' name='A04 - Insecure Design' ordinal='16' />
+            <column datatype='integer' name='A06 - Vulnerable and Outdated Components' ordinal='17' />
+            <column datatype='integer' name='A07 - Identification and Authentication Failures' ordinal='18' />
+            <column datatype='integer' name='A09 - Security Logging and Monitoring Failures' ordinal='19' />
+            <column datatype='string' name='A10 - Server-Side Request Forgery' ordinal='20' />
+            <column datatype='integer' name='CSV Injection' ordinal='21' />
+            <column datatype='integer' name='CRLF Injection' ordinal='22' />
+            <column datatype='integer' name='Unrestricted File Upload' ordinal='23' />
+            <column datatype='integer' name='X-Powered-By Exposure' ordinal='24' />
+            <column datatype='integer' name='Iframe Kullanımı' ordinal='25' />
+            <column datatype='integer' name='Mixed Content Risk' ordinal='26' />
+            <column datatype='integer' name='Deprecated HTML Elements' ordinal='27' />
+            <column datatype='integer' name='Referrer Policy Mevcut mu?' ordinal='28' />
+            <column datatype='integer' name='Gzip Compression Aktif mi?' ordinal='29' />
+            <column datatype='integer' name='robots.txt Var mı?' ordinal='30' />
+            <column datatype='integer' name='sitemap.xml Var mı?' ordinal='31' />
+            <column datatype='integer' name='Doctype Var mı?' ordinal='32' />
+            <column datatype='integer' name='Title Tag Var mı?' ordinal='33' />
+            <column datatype='integer' name='Secure/HttpOnly Cookie Flag Eksik?' ordinal='34' />
+            <column datatype='integer' name='HSTS Süresi Yetersiz mi?' ordinal='35' />
+            <column datatype='integer' name='CORS Açıklığı Var mı?' ordinal='36' />
+            <column datatype='integer' name='Yanıt Süresi (ms)' ordinal='37' />
+            <column datatype='integer' name='Mobil Uyumlu mu?' ordinal='38' />
+            <column datatype='integer' name='Başlık Boş mu?' ordinal='39' />
+            <column datatype='integer' name='Tüm IMG&apos;lerde Lazy Load Var mı?' ordinal='40' />
+            <column datatype='integer' name='Formda Password Input Var mı?' ordinal='41' />
+            <column datatype='integer' name='Toplam HTML Tag Sayısı' ordinal='42' />
+            <column datatype='integer' name='Tracking Script Var mı?' ordinal='43' />
+            <column datatype='integer' name='HTTPS Yönlendirme Var mı?' ordinal='44' />
+            <column datatype='integer' name='Sıkı CSP Var mı?' ordinal='45' />
+            <column datatype='integer' name='OG Tag Var mı?' ordinal='46' />
+            <column datatype='integer' name='Structured Data Var mı?' ordinal='47' />
+            <column datatype='integer' name='SSL Sertifikası Geçerli mi?' ordinal='48' />
+            <column datatype='integer' name='H1 Etiket Sayısı' ordinal='49' />
+            <column datatype='integer' name='Inline Script Kullanımı' ordinal='50' />
+            <column datatype='string' name='Meta Robots İçeriği' ordinal='51' />
+            <column datatype='integer' name='Başlık Uzunluğu (karakter)' ordinal='52' />
+            <column datatype='integer' name='Tüm IMG&apos;lerde loading/width/height var mı?' ordinal='53' />
+            <column datatype='integer' name='Toplam Skor' ordinal='54' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₺&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birim Adı</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Birim Adı]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Birim Adı</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>İnternet Adresi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[İnternet Adresi]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>İnternet Adresi</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTTPS Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HTTPS Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>HTTPS Var mı?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSL Geçerli mi?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SSL Geçerli mi?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>SSL Geçerli mi?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sertifika Başlangıç</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Sertifika Başlangıç]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Sertifika Başlangıç</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sertifika Bitiş</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Sertifika Bitiş]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Sertifika Bitiş</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Strict-Transport-Security</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Strict-Transport-Security]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Strict-Transport-Security</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content-Security-Policy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Content-Security-Policy]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Content-Security-Policy</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Frame-Options</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X-Frame-Options]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>X-Frame-Options</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Content-Type-Options</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X-Content-Type-Options]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>X-Content-Type-Options</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referrer-Policy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Referrer-Policy]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Referrer-Policy</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A02 - Cryptographic Failure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A02 - Cryptographic Failure]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A02 - Cryptographic Failure</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A05 - Security Misconfiguration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A05 - Security Misconfiguration]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A05 - Security Misconfiguration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A08 - Software/Data Integrity Failure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A08 - Software/Data Integrity Failure]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A08 - Software/Data Integrity Failure</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Güvenlik Skoru (0-5)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Güvenlik Skoru (0-5)]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Güvenlik Skoru (0-5)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A01 - Broken Access Control</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A01 - Broken Access Control]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A01 - Broken Access Control</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A04 - Insecure Design</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A04 - Insecure Design]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A04 - Insecure Design</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A06 - Vulnerable and Outdated Components</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A06 - Vulnerable and Outdated Components]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A06 - Vulnerable and Outdated Components</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A07 - Identification and Authentication Failures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A07 - Identification and Authentication Failures]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A07 - Identification and Authentication Failures</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A09 - Security Logging and Monitoring Failures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A09 - Security Logging and Monitoring Failures]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A09 - Security Logging and Monitoring Failures</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A10 - Server-Side Request Forgery</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[A10 - Server-Side Request Forgery]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>A10 - Server-Side Request Forgery</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSV Injection</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CSV Injection]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>CSV Injection</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRLF Injection</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRLF Injection]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>CRLF Injection</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unrestricted File Upload</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unrestricted File Upload]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Unrestricted File Upload</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Powered-By Exposure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X-Powered-By Exposure]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>X-Powered-By Exposure</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iframe Kullanımı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Iframe Kullanımı]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Iframe Kullanımı</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mixed Content Risk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mixed Content Risk]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Mixed Content Risk</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deprecated HTML Elements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deprecated HTML Elements]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Deprecated HTML Elements</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referrer Policy Mevcut mu?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Referrer Policy Mevcut mu?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Referrer Policy Mevcut mu?</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gzip Compression Aktif mi?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gzip Compression Aktif mi?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Gzip Compression Aktif mi?</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>robots.txt Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[robots.txt Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>robots.txt Var mı?</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sitemap.xml Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sitemap.xml Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>sitemap.xml Var mı?</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctype Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Doctype Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Doctype Var mı?</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Tag Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Title Tag Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Title Tag Var mı?</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Secure/HttpOnly Cookie Flag Eksik?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Secure/HttpOnly Cookie Flag Eksik?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Secure/HttpOnly Cookie Flag Eksik?</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HSTS Süresi Yetersiz mi?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HSTS Süresi Yetersiz mi?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>HSTS Süresi Yetersiz mi?</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CORS Açıklığı Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CORS Açıklığı Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>CORS Açıklığı Var mı?</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yanıt Süresi (ms)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yanıt Süresi (ms)]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Yanıt Süresi (ms)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mobil Uyumlu mu?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mobil Uyumlu mu?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Mobil Uyumlu mu?</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Başlık Boş mu?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Başlık Boş mu?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Başlık Boş mu?</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tüm IMG&apos;lerde Lazy Load Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Formda Password Input Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Formda Password Input Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Formda Password Input Var mı?</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Toplam HTML Tag Sayısı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Toplam HTML Tag Sayısı]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Toplam HTML Tag Sayısı</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tracking Script Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tracking Script Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Tracking Script Var mı?</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTTPS Yönlendirme Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HTTPS Yönlendirme Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>HTTPS Yönlendirme Var mı?</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sıkı CSP Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sıkı CSP Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Sıkı CSP Var mı?</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OG Tag Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OG Tag Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>OG Tag Var mı?</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Structured Data Var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Structured Data Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Structured Data Var mı?</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSL Sertifikası Geçerli mi?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SSL Sertifikası Geçerli mi?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>SSL Sertifikası Geçerli mi?</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H1 Etiket Sayısı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[H1 Etiket Sayısı]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>H1 Etiket Sayısı</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inline Script Kullanımı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inline Script Kullanımı]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Inline Script Kullanımı</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meta Robots İçeriği</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Meta Robots İçeriği]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Meta Robots İçeriği</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Başlık Uzunluğu (karakter)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Başlık Uzunluğu (karakter)]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Başlık Uzunluğu (karakter)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tüm IMG&apos;lerde loading/width/height var mı?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tüm IMG&apos;lerde loading/width/height var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Tüm IMG&apos;lerde loading/width/height var mı?</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Toplam Skor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Toplam Skor]</local-name>
+            <parent-name>[FINAL_WITH_SCORE.csv]</parent-name>
+            <remote-alias>Toplam Skor</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Birim Adı]' role='dimension' type='nominal' />
+      <column caption='Toplam Skor(OWASP)' datatype='integer' name='[Toplam Skor]' role='measure' type='quantitative' />
+      <column caption='FINAL_WITH_SCORE.csv' datatype='table' name='[__tableau_internal_object_id__].[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]' role='measure' type='quantitative' />
+      <column-instance column='[Birim Adı]' derivation='None' name='[none:Birim Adı:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/arife/AppData/Local/Temp/TableauTemp/#TableauTemp_0u3eamh0cyed68157kl5j0tu8y2i.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/23/2025 03:16:45 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Birim Adı</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Birim Adı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Birim Adı</remote-alias>
+              <ordinal>0</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>208</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>İnternet Adresi</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[İnternet Adresi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>İnternet Adresi</remote-alias>
+              <ordinal>1</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>206</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HTTPS Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HTTPS Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HTTPS Var mı?</remote-alias>
+              <ordinal>2</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SSL Geçerli mi?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SSL Geçerli mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SSL Geçerli mi?</remote-alias>
+              <ordinal>3</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sertifika Başlangıç</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Sertifika Başlangıç]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sertifika Başlangıç</remote-alias>
+              <ordinal>4</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>153</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sertifika Bitiş</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Sertifika Bitiş]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sertifika Bitiş</remote-alias>
+              <ordinal>5</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>166</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Strict-Transport-Security</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Strict-Transport-Security]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Strict-Transport-Security</remote-alias>
+              <ordinal>6</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Content-Security-Policy</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Content-Security-Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Content-Security-Policy</remote-alias>
+              <ordinal>7</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Frame-Options</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X-Frame-Options]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Frame-Options</remote-alias>
+              <ordinal>8</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Content-Type-Options</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X-Content-Type-Options]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Content-Type-Options</remote-alias>
+              <ordinal>9</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Referrer-Policy</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Referrer-Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Referrer-Policy</remote-alias>
+              <ordinal>10</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A02 - Cryptographic Failure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A02 - Cryptographic Failure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A02 - Cryptographic Failure</remote-alias>
+              <ordinal>11</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A05 - Security Misconfiguration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A05 - Security Misconfiguration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A05 - Security Misconfiguration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A08 - Software/Data Integrity Failure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A08 - Software/Data Integrity Failure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A08 - Software/Data Integrity Failure</remote-alias>
+              <ordinal>13</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Güvenlik Skoru (0-5)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Güvenlik Skoru (0-5)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Güvenlik Skoru (0-5)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A01 - Broken Access Control</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A01 - Broken Access Control]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A01 - Broken Access Control</remote-alias>
+              <ordinal>15</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A04 - Insecure Design</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A04 - Insecure Design]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A04 - Insecure Design</remote-alias>
+              <ordinal>16</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A06 - Vulnerable and Outdated Components</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A06 - Vulnerable and Outdated Components]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A06 - Vulnerable and Outdated Components</remote-alias>
+              <ordinal>17</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A07 - Identification and Authentication Failures</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A07 - Identification and Authentication Failures]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A07 - Identification and Authentication Failures</remote-alias>
+              <ordinal>18</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A09 - Security Logging and Monitoring Failures</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[A09 - Security Logging and Monitoring Failures]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A09 - Security Logging and Monitoring Failures</remote-alias>
+              <ordinal>19</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A10 - Server-Side Request Forgery</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[A10 - Server-Side Request Forgery]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A10 - Server-Side Request Forgery</remote-alias>
+              <ordinal>20</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CSV Injection</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CSV Injection]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CSV Injection</remote-alias>
+              <ordinal>21</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CRLF Injection</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CRLF Injection]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CRLF Injection</remote-alias>
+              <ordinal>22</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unrestricted File Upload</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unrestricted File Upload]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unrestricted File Upload</remote-alias>
+              <ordinal>23</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Powered-By Exposure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X-Powered-By Exposure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Powered-By Exposure</remote-alias>
+              <ordinal>24</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Iframe Kullanımı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Iframe Kullanımı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Iframe Kullanımı</remote-alias>
+              <ordinal>25</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mixed Content Risk</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mixed Content Risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mixed Content Risk</remote-alias>
+              <ordinal>26</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Deprecated HTML Elements</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Deprecated HTML Elements]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Deprecated HTML Elements</remote-alias>
+              <ordinal>27</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Referrer Policy Mevcut mu?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Referrer Policy Mevcut mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Referrer Policy Mevcut mu?</remote-alias>
+              <ordinal>28</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gzip Compression Aktif mi?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gzip Compression Aktif mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gzip Compression Aktif mi?</remote-alias>
+              <ordinal>29</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>robots.txt Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[robots.txt Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>robots.txt Var mı?</remote-alias>
+              <ordinal>30</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sitemap.xml Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[sitemap.xml Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sitemap.xml Var mı?</remote-alias>
+              <ordinal>31</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Doctype Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Doctype Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Doctype Var mı?</remote-alias>
+              <ordinal>32</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Title Tag Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Title Tag Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Title Tag Var mı?</remote-alias>
+              <ordinal>33</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Secure/HttpOnly Cookie Flag Eksik?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Secure/HttpOnly Cookie Flag Eksik?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Secure/HttpOnly Cookie Flag Eksik?</remote-alias>
+              <ordinal>34</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HSTS Süresi Yetersiz mi?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HSTS Süresi Yetersiz mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HSTS Süresi Yetersiz mi?</remote-alias>
+              <ordinal>35</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CORS Açıklığı Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CORS Açıklığı Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CORS Açıklığı Var mı?</remote-alias>
+              <ordinal>36</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Yanıt Süresi (ms)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Yanıt Süresi (ms)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Yanıt Süresi (ms)</remote-alias>
+              <ordinal>37</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>162</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mobil Uyumlu mu?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mobil Uyumlu mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mobil Uyumlu mu?</remote-alias>
+              <ordinal>38</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Başlık Boş mu?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Başlık Boş mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Başlık Boş mu?</remote-alias>
+              <ordinal>39</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tüm IMG&apos;lerde Lazy Load Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-alias>
+              <ordinal>40</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Formda Password Input Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Formda Password Input Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Formda Password Input Var mı?</remote-alias>
+              <ordinal>41</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Toplam HTML Tag Sayısı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Toplam HTML Tag Sayısı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Toplam HTML Tag Sayısı</remote-alias>
+              <ordinal>42</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>159</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tracking Script Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tracking Script Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tracking Script Var mı?</remote-alias>
+              <ordinal>43</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HTTPS Yönlendirme Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HTTPS Yönlendirme Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HTTPS Yönlendirme Var mı?</remote-alias>
+              <ordinal>44</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sıkı CSP Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sıkı CSP Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sıkı CSP Var mı?</remote-alias>
+              <ordinal>45</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OG Tag Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[OG Tag Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OG Tag Var mı?</remote-alias>
+              <ordinal>46</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Structured Data Var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Structured Data Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Structured Data Var mı?</remote-alias>
+              <ordinal>47</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SSL Sertifikası Geçerli mi?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SSL Sertifikası Geçerli mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SSL Sertifikası Geçerli mi?</remote-alias>
+              <ordinal>48</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>H1 Etiket Sayısı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[H1 Etiket Sayısı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>H1 Etiket Sayısı</remote-alias>
+              <ordinal>49</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inline Script Kullanımı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Inline Script Kullanımı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Inline Script Kullanımı</remote-alias>
+              <ordinal>50</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meta Robots İçeriği</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Meta Robots İçeriği]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meta Robots İçeriği</remote-alias>
+              <ordinal>51</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Başlık Uzunluğu (karakter)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Başlık Uzunluğu (karakter)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Başlık Uzunluğu (karakter)</remote-alias>
+              <ordinal>52</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tüm IMG&apos;lerde loading/width/height var mı?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tüm IMG&apos;lerde loading/width/height var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tüm IMG&apos;lerde loading/width/height var mı?</remote-alias>
+              <ordinal>53</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Toplam Skor</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Toplam Skor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Toplam Skor</remote-alias>
+              <ordinal>54</ordinal>
+              <family>FINAL_WITH_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Birim Adı:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;ADIYAMAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ANKARA MEDİPOL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ARDAHAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BİRUNİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ERCİYES ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KASTAMONU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SABANCI ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DOĞUŞ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ERZURUM TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KIRKLARELİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MALATYA TURGUT ÖZAL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SAĞLIK BİLİMLERİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;IŞIK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;İNÖNÜ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;İSTANBUL TOPKAPI ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;İZMİR KAVRAM MESLEK YÜKSEKOKULU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MUDANYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PİRİ REİS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TRAKYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TÜRK HAVA KURUMU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TÜRK-ALMAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;YEDİTEPE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AVRASYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;GİRESUN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;HARRAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;İSTANBUL BEYKENT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;KONYA GIDA VE TARIM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MANİSA CELÂL BAYAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ŞIRNAK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ALANYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BAHÇEŞEHİR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BOĞAZİÇİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;İZMİR TINAZTEPE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KAPADOKYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KİLİS 7 ARALIK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AFYON KOCATEPE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ARTVİN ÇORUH ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BAYBURT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;İSKENDERUN TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;İSTANBUL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NECMETTİN ERBAKAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SİİRT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;TÜRK-JAPON BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;YALOVA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;YAŞAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;İSTANBUL GALATA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;İSTANBUL OKAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;KARADENİZ TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ORDU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OSMANİYE KORKUT ATA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ABDULLAH GÜL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;İSTANBUL MEDİPOL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;İSTİNYE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;KONYA TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;KTO KARATAY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MUŞ ALPARSLAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SAKARYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TRABZON ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ÜSKÜDAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ÇANKAYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DİCLE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FIRAT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;İSTANBUL GELİŞİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;İSTANBUL SAĞLIK VE SOSYAL BİLİMLER MESLEK YÜKSEKOKULU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MARDİN ARTUKLU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MERSİN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UŞAK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AKDENİZ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ATILIM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ÇAĞ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;İSTANBUL 29 MAYIS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SİNOP ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;YÜKSEK İHTİSAS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AMASYA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BAŞKENT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BİTLİS EREN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DOKUZ EYLÜL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;HATAY MUSTAFA KEMAL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;HİTİT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;İSTANBUL KENT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TARSUS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TED ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ANADOLU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ANKARA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DEMİROĞLU BİLİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HASAN KALYONCU ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;İSTANBUL ATLAS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MALTEPE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TOROS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AYDIN ADNAN MENDERES ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DÜZCE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;GAZİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;İBN HALDUN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;İSTANBUL AYDIN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;İSTANBUL MEDENİYET ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;İSTANBUL TİCARET ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;KAFKAS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MUNZUR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ONDOKUZ MAYIS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BURSA TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GEBZE TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;İSTANBUL TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;İZMİR EKONOMİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;KARABÜK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;KIRIKKALE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;KOCAELİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PAMUKKALE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SELÇUK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ANTALYA BELEK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BATMAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ÇUKUROVA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GALATASARAY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KAYSERİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SAMSUN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ANKARA BİLİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BİNGÖL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EGE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;HALİÇ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;İSTANBUL KÜLTÜR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;İZMİR DEMOKRASİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ORTA DOĞU TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;YOZGAT BOZOK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ALTINBAŞ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ANKA TEKNOLOJİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HACETTEPE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;İSTANBUL RUMELİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;İZMİR BAKIRÇAY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LOKMAN HEKİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;OSTİM TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SİVAS CUMHURİYET ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;YILDIZ TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ATATÜRK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BARTIN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BEYKOZ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ÇANKIRI KARATEKİN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;İSTANBUL AREL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;İSTANBUL ESENYURT ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;İSTANBUL GEDİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KADİR HAS ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MARMARA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UFUK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ANTALYA BİLİM ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BALIKESİR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BURSA ULUDAĞ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ESKİŞEHİR TEKNİK ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;GAZİANTEP ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;GÜMÜŞHANE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;KOÇ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NUH NACİ YAZGAN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SÜLEYMAN DEMİREL ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AKSARAY ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FENERBAHÇE ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HAKKARİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;IĞDIR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;İSTANBUL BİLGİ ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MEF ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ÖZYEĞİN ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SANKO ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='FINAL_WITH_SCORE.csv' id='FINAL_WITH_SCORE.csv_F95A4F5080B245B39E06347F0936B0FA'>
+            <properties context=''>
+              <relation connection='textscan.0uasha11fuawg8189i79z0vhxlfh' name='FINAL_WITH_SCORE.csv' table='[FINAL_WITH_SCORE#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+                  <column datatype='string' name='Birim Adı' ordinal='0' />
+                  <column datatype='string' name='İnternet Adresi' ordinal='1' />
+                  <column datatype='integer' name='HTTPS Var mı?' ordinal='2' />
+                  <column datatype='integer' name='SSL Geçerli mi?' ordinal='3' />
+                  <column datatype='datetime' name='Sertifika Başlangıç' ordinal='4' />
+                  <column datatype='datetime' name='Sertifika Bitiş' ordinal='5' />
+                  <column datatype='integer' name='Strict-Transport-Security' ordinal='6' />
+                  <column datatype='integer' name='Content-Security-Policy' ordinal='7' />
+                  <column datatype='integer' name='X-Frame-Options' ordinal='8' />
+                  <column datatype='integer' name='X-Content-Type-Options' ordinal='9' />
+                  <column datatype='integer' name='Referrer-Policy' ordinal='10' />
+                  <column datatype='integer' name='A02 - Cryptographic Failure' ordinal='11' />
+                  <column datatype='integer' name='A05 - Security Misconfiguration' ordinal='12' />
+                  <column datatype='integer' name='A08 - Software/Data Integrity Failure' ordinal='13' />
+                  <column datatype='integer' name='Güvenlik Skoru (0-5)' ordinal='14' />
+                  <column datatype='integer' name='A01 - Broken Access Control' ordinal='15' />
+                  <column datatype='integer' name='A04 - Insecure Design' ordinal='16' />
+                  <column datatype='integer' name='A06 - Vulnerable and Outdated Components' ordinal='17' />
+                  <column datatype='integer' name='A07 - Identification and Authentication Failures' ordinal='18' />
+                  <column datatype='integer' name='A09 - Security Logging and Monitoring Failures' ordinal='19' />
+                  <column datatype='string' name='A10 - Server-Side Request Forgery' ordinal='20' />
+                  <column datatype='integer' name='CSV Injection' ordinal='21' />
+                  <column datatype='integer' name='CRLF Injection' ordinal='22' />
+                  <column datatype='integer' name='Unrestricted File Upload' ordinal='23' />
+                  <column datatype='integer' name='X-Powered-By Exposure' ordinal='24' />
+                  <column datatype='integer' name='Iframe Kullanımı' ordinal='25' />
+                  <column datatype='integer' name='Mixed Content Risk' ordinal='26' />
+                  <column datatype='integer' name='Deprecated HTML Elements' ordinal='27' />
+                  <column datatype='integer' name='Referrer Policy Mevcut mu?' ordinal='28' />
+                  <column datatype='integer' name='Gzip Compression Aktif mi?' ordinal='29' />
+                  <column datatype='integer' name='robots.txt Var mı?' ordinal='30' />
+                  <column datatype='integer' name='sitemap.xml Var mı?' ordinal='31' />
+                  <column datatype='integer' name='Doctype Var mı?' ordinal='32' />
+                  <column datatype='integer' name='Title Tag Var mı?' ordinal='33' />
+                  <column datatype='integer' name='Secure/HttpOnly Cookie Flag Eksik?' ordinal='34' />
+                  <column datatype='integer' name='HSTS Süresi Yetersiz mi?' ordinal='35' />
+                  <column datatype='integer' name='CORS Açıklığı Var mı?' ordinal='36' />
+                  <column datatype='integer' name='Yanıt Süresi (ms)' ordinal='37' />
+                  <column datatype='integer' name='Mobil Uyumlu mu?' ordinal='38' />
+                  <column datatype='integer' name='Başlık Boş mu?' ordinal='39' />
+                  <column datatype='integer' name='Tüm IMG&apos;lerde Lazy Load Var mı?' ordinal='40' />
+                  <column datatype='integer' name='Formda Password Input Var mı?' ordinal='41' />
+                  <column datatype='integer' name='Toplam HTML Tag Sayısı' ordinal='42' />
+                  <column datatype='integer' name='Tracking Script Var mı?' ordinal='43' />
+                  <column datatype='integer' name='HTTPS Yönlendirme Var mı?' ordinal='44' />
+                  <column datatype='integer' name='Sıkı CSP Var mı?' ordinal='45' />
+                  <column datatype='integer' name='OG Tag Var mı?' ordinal='46' />
+                  <column datatype='integer' name='Structured Data Var mı?' ordinal='47' />
+                  <column datatype='integer' name='SSL Sertifikası Geçerli mi?' ordinal='48' />
+                  <column datatype='integer' name='H1 Etiket Sayısı' ordinal='49' />
+                  <column datatype='integer' name='Inline Script Kullanımı' ordinal='50' />
+                  <column datatype='string' name='Meta Robots İçeriği' ordinal='51' />
+                  <column datatype='integer' name='Başlık Uzunluğu (karakter)' ordinal='52' />
+                  <column datatype='integer' name='Tüm IMG&apos;lerde loading/width/height var mı?' ordinal='53' />
+                  <column datatype='integer' name='Toplam Skor' ordinal='54' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='OWASP TOPLAM SKOR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>OWASP TOPLAM SKORLARI</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FINAL_WITH_SCORE' name='federated.1mwa1701ulrrnu0zsmfla10bi33j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mwa1701ulrrnu0zsmfla10bi33j'>
+            <column datatype='string' name='[Birim Adı]' role='dimension' type='nominal' />
+            <column caption='Toplam Skor(OWASP)' datatype='integer' name='[Toplam Skor]' role='measure' type='quantitative' />
+            <column-instance column='[Birim Adı]' derivation='None' name='[none:Birim Adı:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Toplam Skor]' derivation='Sum' name='[sum:Toplam Skor:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1mwa1701ulrrnu0zsmfla10bi33j].[none:Birim Adı:nk]' direction='DESC' using='[federated.1mwa1701ulrrnu0zsmfla10bi33j].[sum:Toplam Skor:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1mwa1701ulrrnu0zsmfla10bi33j].[none:Birim Adı:nk]' value='432' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1mwa1701ulrrnu0zsmfla10bi33j].[sum:Toplam Skor:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mwa1701ulrrnu0zsmfla10bi33j].[none:Birim Adı:nk]</rows>
+        <cols>[federated.1mwa1701ulrrnu0zsmfla10bi33j].[sum:Toplam Skor:qk]</cols>
+      </table>
+      <simple-id uuid='{B8981F1A-DC0B-43A2-9B54-DED3E68EB42D}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9FEA3235-4F3E-45FD-A4DC-5DD929292DB3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E6B0FEF2-A02B-446B-B74B-99E8ED31A65F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='OWASP TOPLAM SKOR' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mwa1701ulrrnu0zsmfla10bi33j].[none:Birim Adı:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D4850809-5862-4C94-8845-E695DD8BECD2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='OWASP TOPLAM SKOR' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

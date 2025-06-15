@@ -1,0 +1,2064 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='FINAL_WITH_SECURITY_SCORE' inline='true' name='federated.1ne56w71ev11vh1dkia220gvyti5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FINAL_WITH_SECURITY_SCORE' name='textscan.1t5jjek1u799a61dnhqhc05nfo8x'>
+            <connection class='textscan' directory='C:/Users/arife/OneDrive/Masaüstü/BüyükVeriProje/bigDataProject/outputs' filename='FINAL_WITH_SECURITY_SCORE.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1t5jjek1u799a61dnhqhc05nfo8x' name='FINAL_WITH_SECURITY_SCORE.csv' table='[FINAL_WITH_SECURITY_SCORE#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+            <column datatype='string' name='Birim Adı' ordinal='0' />
+            <column datatype='string' name='İnternet Adresi' ordinal='1' />
+            <column datatype='boolean' name='HTTPS Var mı?' ordinal='2' />
+            <column datatype='boolean' name='SSL Geçerli mi?' ordinal='3' />
+            <column datatype='datetime' name='Sertifika Başlangıç' ordinal='4' />
+            <column datatype='datetime' name='Sertifika Bitiş' ordinal='5' />
+            <column datatype='boolean' name='Strict-Transport-Security' ordinal='6' />
+            <column datatype='boolean' name='Content-Security-Policy' ordinal='7' />
+            <column datatype='boolean' name='X-Frame-Options' ordinal='8' />
+            <column datatype='boolean' name='X-Content-Type-Options' ordinal='9' />
+            <column datatype='boolean' name='Referrer-Policy' ordinal='10' />
+            <column datatype='boolean' name='A02 - Cryptographic Failure' ordinal='11' />
+            <column datatype='boolean' name='A05 - Security Misconfiguration' ordinal='12' />
+            <column datatype='boolean' name='A08 - Software/Data Integrity Failure' ordinal='13' />
+            <column datatype='integer' name='Güvenlik Skoru (0-5)' ordinal='14' />
+            <column datatype='boolean' name='A01 - Broken Access Control' ordinal='15' />
+            <column datatype='boolean' name='A04 - Insecure Design' ordinal='16' />
+            <column datatype='boolean' name='A06 - Vulnerable and Outdated Components' ordinal='17' />
+            <column datatype='boolean' name='A07 - Identification and Authentication Failures' ordinal='18' />
+            <column datatype='boolean' name='A09 - Security Logging and Monitoring Failures' ordinal='19' />
+            <column datatype='string' name='A10 - Server-Side Request Forgery' ordinal='20' />
+            <column datatype='boolean' name='CSV Injection' ordinal='21' />
+            <column datatype='boolean' name='CRLF Injection' ordinal='22' />
+            <column datatype='boolean' name='Unrestricted File Upload' ordinal='23' />
+            <column datatype='boolean' name='X-Powered-By Exposure' ordinal='24' />
+            <column datatype='boolean' name='Iframe Kullanımı' ordinal='25' />
+            <column datatype='boolean' name='Mixed Content Risk' ordinal='26' />
+            <column datatype='boolean' name='Deprecated HTML Elements' ordinal='27' />
+            <column datatype='boolean' name='Referrer Policy Mevcut mu?' ordinal='28' />
+            <column datatype='boolean' name='Gzip Compression Aktif mi?' ordinal='29' />
+            <column datatype='boolean' name='robots.txt Var mı?' ordinal='30' />
+            <column datatype='boolean' name='sitemap.xml Var mı?' ordinal='31' />
+            <column datatype='boolean' name='Doctype Var mı?' ordinal='32' />
+            <column datatype='boolean' name='Title Tag Var mı?' ordinal='33' />
+            <column datatype='boolean' name='Secure/HttpOnly Cookie Flag Eksik?' ordinal='34' />
+            <column datatype='boolean' name='HSTS Süresi Yetersiz mi?' ordinal='35' />
+            <column datatype='boolean' name='CORS Açıklığı Var mı?' ordinal='36' />
+            <column datatype='integer' name='Yanıt Süresi (ms)' ordinal='37' />
+            <column datatype='boolean' name='Mobil Uyumlu mu?' ordinal='38' />
+            <column datatype='boolean' name='Başlık Boş mu?' ordinal='39' />
+            <column datatype='boolean' name='Tüm IMG&apos;lerde Lazy Load Var mı?' ordinal='40' />
+            <column datatype='boolean' name='Formda Password Input Var mı?' ordinal='41' />
+            <column datatype='integer' name='Toplam HTML Tag Sayısı' ordinal='42' />
+            <column datatype='boolean' name='Tracking Script Var mı?' ordinal='43' />
+            <column datatype='boolean' name='HTTPS Yönlendirme Var mı?' ordinal='44' />
+            <column datatype='boolean' name='Sıkı CSP Var mı?' ordinal='45' />
+            <column datatype='boolean' name='OG Tag Var mı?' ordinal='46' />
+            <column datatype='boolean' name='Structured Data Var mı?' ordinal='47' />
+            <column datatype='boolean' name='SSL Sertifikası Geçerli mi?' ordinal='48' />
+            <column datatype='integer' name='H1 Etiket Sayısı' ordinal='49' />
+            <column datatype='boolean' name='Inline Script Kullanımı' ordinal='50' />
+            <column datatype='string' name='Meta Robots İçeriği' ordinal='51' />
+            <column datatype='integer' name='Başlık Uzunluğu (karakter)' ordinal='52' />
+            <column datatype='boolean' name='Tüm IMG&apos;lerde loading/width/height var mı?' ordinal='53' />
+            <column datatype='string' name='Güvenlik Skoru (%)' ordinal='54' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₺&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birim Adı</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Birim Adı]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Birim Adı</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>İnternet Adresi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[İnternet Adresi]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>İnternet Adresi</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTTPS Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[HTTPS Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>HTTPS Var mı?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSL Geçerli mi?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[SSL Geçerli mi?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>SSL Geçerli mi?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sertifika Başlangıç</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Sertifika Başlangıç]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Sertifika Başlangıç</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sertifika Bitiş</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Sertifika Bitiş]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Sertifika Bitiş</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Strict-Transport-Security</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Strict-Transport-Security]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Strict-Transport-Security</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content-Security-Policy</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Content-Security-Policy]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Content-Security-Policy</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Frame-Options</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[X-Frame-Options]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>X-Frame-Options</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Content-Type-Options</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[X-Content-Type-Options]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>X-Content-Type-Options</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referrer-Policy</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Referrer-Policy]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Referrer-Policy</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A02 - Cryptographic Failure</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A02 - Cryptographic Failure]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A02 - Cryptographic Failure</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A05 - Security Misconfiguration</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A05 - Security Misconfiguration]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A05 - Security Misconfiguration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A08 - Software/Data Integrity Failure</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A08 - Software/Data Integrity Failure]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A08 - Software/Data Integrity Failure</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Güvenlik Skoru (0-5)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Güvenlik Skoru (0-5)]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Güvenlik Skoru (0-5)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A01 - Broken Access Control</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A01 - Broken Access Control]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A01 - Broken Access Control</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A04 - Insecure Design</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A04 - Insecure Design]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A04 - Insecure Design</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A06 - Vulnerable and Outdated Components</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A06 - Vulnerable and Outdated Components]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A06 - Vulnerable and Outdated Components</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A07 - Identification and Authentication Failures</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A07 - Identification and Authentication Failures]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A07 - Identification and Authentication Failures</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A09 - Security Logging and Monitoring Failures</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[A09 - Security Logging and Monitoring Failures]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A09 - Security Logging and Monitoring Failures</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A10 - Server-Side Request Forgery</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[A10 - Server-Side Request Forgery]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>A10 - Server-Side Request Forgery</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSV Injection</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[CSV Injection]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>CSV Injection</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRLF Injection</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[CRLF Injection]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>CRLF Injection</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unrestricted File Upload</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Unrestricted File Upload]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Unrestricted File Upload</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X-Powered-By Exposure</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[X-Powered-By Exposure]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>X-Powered-By Exposure</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iframe Kullanımı</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Iframe Kullanımı]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Iframe Kullanımı</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mixed Content Risk</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Mixed Content Risk]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Mixed Content Risk</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deprecated HTML Elements</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Deprecated HTML Elements]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Deprecated HTML Elements</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referrer Policy Mevcut mu?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Referrer Policy Mevcut mu?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Referrer Policy Mevcut mu?</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gzip Compression Aktif mi?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Gzip Compression Aktif mi?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Gzip Compression Aktif mi?</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>robots.txt Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[robots.txt Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>robots.txt Var mı?</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sitemap.xml Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[sitemap.xml Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>sitemap.xml Var mı?</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctype Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Doctype Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Doctype Var mı?</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Tag Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Title Tag Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Title Tag Var mı?</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Secure/HttpOnly Cookie Flag Eksik?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Secure/HttpOnly Cookie Flag Eksik?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Secure/HttpOnly Cookie Flag Eksik?</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HSTS Süresi Yetersiz mi?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[HSTS Süresi Yetersiz mi?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>HSTS Süresi Yetersiz mi?</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CORS Açıklığı Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[CORS Açıklığı Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>CORS Açıklığı Var mı?</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yanıt Süresi (ms)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yanıt Süresi (ms)]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Yanıt Süresi (ms)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mobil Uyumlu mu?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Mobil Uyumlu mu?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Mobil Uyumlu mu?</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Başlık Boş mu?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Başlık Boş mu?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Başlık Boş mu?</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Tüm IMG&apos;lerde Lazy Load Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Formda Password Input Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Formda Password Input Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Formda Password Input Var mı?</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Toplam HTML Tag Sayısı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Toplam HTML Tag Sayısı]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Toplam HTML Tag Sayısı</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tracking Script Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Tracking Script Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Tracking Script Var mı?</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTTPS Yönlendirme Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[HTTPS Yönlendirme Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>HTTPS Yönlendirme Var mı?</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sıkı CSP Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Sıkı CSP Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Sıkı CSP Var mı?</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OG Tag Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[OG Tag Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>OG Tag Var mı?</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Structured Data Var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Structured Data Var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Structured Data Var mı?</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSL Sertifikası Geçerli mi?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[SSL Sertifikası Geçerli mi?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>SSL Sertifikası Geçerli mi?</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H1 Etiket Sayısı</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[H1 Etiket Sayısı]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>H1 Etiket Sayısı</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inline Script Kullanımı</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Inline Script Kullanımı]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Inline Script Kullanımı</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meta Robots İçeriği</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Meta Robots İçeriği]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Meta Robots İçeriği</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Başlık Uzunluğu (karakter)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Başlık Uzunluğu (karakter)]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Başlık Uzunluğu (karakter)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tüm IMG&apos;lerde loading/width/height var mı?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Tüm IMG&apos;lerde loading/width/height var mı?]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Tüm IMG&apos;lerde loading/width/height var mı?</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Güvenlik Skoru (%)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Güvenlik Skoru (%)]</local-name>
+            <parent-name>[FINAL_WITH_SECURITY_SCORE.csv]</parent-name>
+            <remote-alias>Güvenlik Skoru (%)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+            <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' datatype-customized='true' name='[Güvenlik Skoru (%)]' role='dimension' type='ordinal' />
+      <column caption='FINAL_WITH_SECURITY_SCORE.csv' datatype='table' name='[__tableau_internal_object_id__].[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/arife/AppData/Local/Temp/TableauTemp/#TableauTemp_1lagztv1xtw2ck111w3981l1sdkb.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/23/2025 03:55:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Birim Adı</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Birim Adı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Birim Adı</remote-alias>
+              <ordinal>0</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>208</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>İnternet Adresi</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[İnternet Adresi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>İnternet Adresi</remote-alias>
+              <ordinal>1</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>206</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HTTPS Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[HTTPS Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HTTPS Var mı?</remote-alias>
+              <ordinal>2</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SSL Geçerli mi?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[SSL Geçerli mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SSL Geçerli mi?</remote-alias>
+              <ordinal>3</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sertifika Başlangıç</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Sertifika Başlangıç]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sertifika Başlangıç</remote-alias>
+              <ordinal>4</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>153</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sertifika Bitiş</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Sertifika Bitiş]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sertifika Bitiş</remote-alias>
+              <ordinal>5</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>166</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Strict-Transport-Security</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Strict-Transport-Security]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Strict-Transport-Security</remote-alias>
+              <ordinal>6</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Content-Security-Policy</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Content-Security-Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Content-Security-Policy</remote-alias>
+              <ordinal>7</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Frame-Options</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[X-Frame-Options]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Frame-Options</remote-alias>
+              <ordinal>8</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Content-Type-Options</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[X-Content-Type-Options]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Content-Type-Options</remote-alias>
+              <ordinal>9</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Referrer-Policy</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Referrer-Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Referrer-Policy</remote-alias>
+              <ordinal>10</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A02 - Cryptographic Failure</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A02 - Cryptographic Failure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A02 - Cryptographic Failure</remote-alias>
+              <ordinal>11</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A05 - Security Misconfiguration</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A05 - Security Misconfiguration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A05 - Security Misconfiguration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A08 - Software/Data Integrity Failure</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A08 - Software/Data Integrity Failure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A08 - Software/Data Integrity Failure</remote-alias>
+              <ordinal>13</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Güvenlik Skoru (0-5)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Güvenlik Skoru (0-5)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Güvenlik Skoru (0-5)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A01 - Broken Access Control</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A01 - Broken Access Control]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A01 - Broken Access Control</remote-alias>
+              <ordinal>15</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A04 - Insecure Design</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A04 - Insecure Design]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A04 - Insecure Design</remote-alias>
+              <ordinal>16</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A06 - Vulnerable and Outdated Components</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A06 - Vulnerable and Outdated Components]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A06 - Vulnerable and Outdated Components</remote-alias>
+              <ordinal>17</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A07 - Identification and Authentication Failures</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A07 - Identification and Authentication Failures]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A07 - Identification and Authentication Failures</remote-alias>
+              <ordinal>18</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A09 - Security Logging and Monitoring Failures</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[A09 - Security Logging and Monitoring Failures]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A09 - Security Logging and Monitoring Failures</remote-alias>
+              <ordinal>19</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>A10 - Server-Side Request Forgery</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[A10 - Server-Side Request Forgery]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>A10 - Server-Side Request Forgery</remote-alias>
+              <ordinal>20</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CSV Injection</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[CSV Injection]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CSV Injection</remote-alias>
+              <ordinal>21</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CRLF Injection</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[CRLF Injection]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CRLF Injection</remote-alias>
+              <ordinal>22</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unrestricted File Upload</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Unrestricted File Upload]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unrestricted File Upload</remote-alias>
+              <ordinal>23</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X-Powered-By Exposure</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[X-Powered-By Exposure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X-Powered-By Exposure</remote-alias>
+              <ordinal>24</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Iframe Kullanımı</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Iframe Kullanımı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Iframe Kullanımı</remote-alias>
+              <ordinal>25</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mixed Content Risk</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Mixed Content Risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mixed Content Risk</remote-alias>
+              <ordinal>26</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Deprecated HTML Elements</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Deprecated HTML Elements]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Deprecated HTML Elements</remote-alias>
+              <ordinal>27</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Referrer Policy Mevcut mu?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Referrer Policy Mevcut mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Referrer Policy Mevcut mu?</remote-alias>
+              <ordinal>28</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gzip Compression Aktif mi?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Gzip Compression Aktif mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gzip Compression Aktif mi?</remote-alias>
+              <ordinal>29</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>robots.txt Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[robots.txt Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>robots.txt Var mı?</remote-alias>
+              <ordinal>30</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sitemap.xml Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[sitemap.xml Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sitemap.xml Var mı?</remote-alias>
+              <ordinal>31</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Doctype Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Doctype Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Doctype Var mı?</remote-alias>
+              <ordinal>32</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Title Tag Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Title Tag Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Title Tag Var mı?</remote-alias>
+              <ordinal>33</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Secure/HttpOnly Cookie Flag Eksik?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Secure/HttpOnly Cookie Flag Eksik?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Secure/HttpOnly Cookie Flag Eksik?</remote-alias>
+              <ordinal>34</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HSTS Süresi Yetersiz mi?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[HSTS Süresi Yetersiz mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HSTS Süresi Yetersiz mi?</remote-alias>
+              <ordinal>35</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CORS Açıklığı Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[CORS Açıklığı Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CORS Açıklığı Var mı?</remote-alias>
+              <ordinal>36</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Yanıt Süresi (ms)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Yanıt Süresi (ms)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Yanıt Süresi (ms)</remote-alias>
+              <ordinal>37</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>162</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mobil Uyumlu mu?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Mobil Uyumlu mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mobil Uyumlu mu?</remote-alias>
+              <ordinal>38</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Başlık Boş mu?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Başlık Boş mu?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Başlık Boş mu?</remote-alias>
+              <ordinal>39</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Tüm IMG&apos;lerde Lazy Load Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tüm IMG&apos;lerde Lazy Load Var mı?</remote-alias>
+              <ordinal>40</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Formda Password Input Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Formda Password Input Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Formda Password Input Var mı?</remote-alias>
+              <ordinal>41</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Toplam HTML Tag Sayısı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Toplam HTML Tag Sayısı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Toplam HTML Tag Sayısı</remote-alias>
+              <ordinal>42</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>159</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tracking Script Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Tracking Script Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tracking Script Var mı?</remote-alias>
+              <ordinal>43</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HTTPS Yönlendirme Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[HTTPS Yönlendirme Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HTTPS Yönlendirme Var mı?</remote-alias>
+              <ordinal>44</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sıkı CSP Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Sıkı CSP Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sıkı CSP Var mı?</remote-alias>
+              <ordinal>45</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OG Tag Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[OG Tag Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OG Tag Var mı?</remote-alias>
+              <ordinal>46</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Structured Data Var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Structured Data Var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Structured Data Var mı?</remote-alias>
+              <ordinal>47</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SSL Sertifikası Geçerli mi?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[SSL Sertifikası Geçerli mi?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SSL Sertifikası Geçerli mi?</remote-alias>
+              <ordinal>48</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>H1 Etiket Sayısı</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[H1 Etiket Sayısı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>H1 Etiket Sayısı</remote-alias>
+              <ordinal>49</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inline Script Kullanımı</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Inline Script Kullanımı]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Inline Script Kullanımı</remote-alias>
+              <ordinal>50</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meta Robots İçeriği</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Meta Robots İçeriği]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meta Robots İçeriği</remote-alias>
+              <ordinal>51</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Başlık Uzunluğu (karakter)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Başlık Uzunluğu (karakter)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Başlık Uzunluğu (karakter)</remote-alias>
+              <ordinal>52</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tüm IMG&apos;lerde loading/width/height var mı?</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Tüm IMG&apos;lerde loading/width/height var mı?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tüm IMG&apos;lerde loading/width/height var mı?</remote-alias>
+              <ordinal>53</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Güvenlik Skoru (%)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Güvenlik Skoru (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Güvenlik Skoru (%)</remote-alias>
+              <ordinal>54</ordinal>
+              <family>FINAL_WITH_SECURITY_SCORE.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LTR_RTR' />
+              <object-id>[FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='FINAL_WITH_SECURITY_SCORE.csv' id='FINAL_WITH_SECURITY_SCORE.csv_352DEE5AA43C4FADB0E205E55054FC06'>
+            <properties context=''>
+              <relation connection='textscan.1t5jjek1u799a61dnhqhc05nfo8x' name='FINAL_WITH_SECURITY_SCORE.csv' table='[FINAL_WITH_SECURITY_SCORE#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR' separator=';'>
+                  <column datatype='string' name='Birim Adı' ordinal='0' />
+                  <column datatype='string' name='İnternet Adresi' ordinal='1' />
+                  <column datatype='boolean' name='HTTPS Var mı?' ordinal='2' />
+                  <column datatype='boolean' name='SSL Geçerli mi?' ordinal='3' />
+                  <column datatype='datetime' name='Sertifika Başlangıç' ordinal='4' />
+                  <column datatype='datetime' name='Sertifika Bitiş' ordinal='5' />
+                  <column datatype='boolean' name='Strict-Transport-Security' ordinal='6' />
+                  <column datatype='boolean' name='Content-Security-Policy' ordinal='7' />
+                  <column datatype='boolean' name='X-Frame-Options' ordinal='8' />
+                  <column datatype='boolean' name='X-Content-Type-Options' ordinal='9' />
+                  <column datatype='boolean' name='Referrer-Policy' ordinal='10' />
+                  <column datatype='boolean' name='A02 - Cryptographic Failure' ordinal='11' />
+                  <column datatype='boolean' name='A05 - Security Misconfiguration' ordinal='12' />
+                  <column datatype='boolean' name='A08 - Software/Data Integrity Failure' ordinal='13' />
+                  <column datatype='integer' name='Güvenlik Skoru (0-5)' ordinal='14' />
+                  <column datatype='boolean' name='A01 - Broken Access Control' ordinal='15' />
+                  <column datatype='boolean' name='A04 - Insecure Design' ordinal='16' />
+                  <column datatype='boolean' name='A06 - Vulnerable and Outdated Components' ordinal='17' />
+                  <column datatype='boolean' name='A07 - Identification and Authentication Failures' ordinal='18' />
+                  <column datatype='boolean' name='A09 - Security Logging and Monitoring Failures' ordinal='19' />
+                  <column datatype='string' name='A10 - Server-Side Request Forgery' ordinal='20' />
+                  <column datatype='boolean' name='CSV Injection' ordinal='21' />
+                  <column datatype='boolean' name='CRLF Injection' ordinal='22' />
+                  <column datatype='boolean' name='Unrestricted File Upload' ordinal='23' />
+                  <column datatype='boolean' name='X-Powered-By Exposure' ordinal='24' />
+                  <column datatype='boolean' name='Iframe Kullanımı' ordinal='25' />
+                  <column datatype='boolean' name='Mixed Content Risk' ordinal='26' />
+                  <column datatype='boolean' name='Deprecated HTML Elements' ordinal='27' />
+                  <column datatype='boolean' name='Referrer Policy Mevcut mu?' ordinal='28' />
+                  <column datatype='boolean' name='Gzip Compression Aktif mi?' ordinal='29' />
+                  <column datatype='boolean' name='robots.txt Var mı?' ordinal='30' />
+                  <column datatype='boolean' name='sitemap.xml Var mı?' ordinal='31' />
+                  <column datatype='boolean' name='Doctype Var mı?' ordinal='32' />
+                  <column datatype='boolean' name='Title Tag Var mı?' ordinal='33' />
+                  <column datatype='boolean' name='Secure/HttpOnly Cookie Flag Eksik?' ordinal='34' />
+                  <column datatype='boolean' name='HSTS Süresi Yetersiz mi?' ordinal='35' />
+                  <column datatype='boolean' name='CORS Açıklığı Var mı?' ordinal='36' />
+                  <column datatype='integer' name='Yanıt Süresi (ms)' ordinal='37' />
+                  <column datatype='boolean' name='Mobil Uyumlu mu?' ordinal='38' />
+                  <column datatype='boolean' name='Başlık Boş mu?' ordinal='39' />
+                  <column datatype='boolean' name='Tüm IMG&apos;lerde Lazy Load Var mı?' ordinal='40' />
+                  <column datatype='boolean' name='Formda Password Input Var mı?' ordinal='41' />
+                  <column datatype='integer' name='Toplam HTML Tag Sayısı' ordinal='42' />
+                  <column datatype='boolean' name='Tracking Script Var mı?' ordinal='43' />
+                  <column datatype='boolean' name='HTTPS Yönlendirme Var mı?' ordinal='44' />
+                  <column datatype='boolean' name='Sıkı CSP Var mı?' ordinal='45' />
+                  <column datatype='boolean' name='OG Tag Var mı?' ordinal='46' />
+                  <column datatype='boolean' name='Structured Data Var mı?' ordinal='47' />
+                  <column datatype='boolean' name='SSL Sertifikası Geçerli mi?' ordinal='48' />
+                  <column datatype='integer' name='H1 Etiket Sayısı' ordinal='49' />
+                  <column datatype='boolean' name='Inline Script Kullanımı' ordinal='50' />
+                  <column datatype='string' name='Meta Robots İçeriği' ordinal='51' />
+                  <column datatype='integer' name='Başlık Uzunluğu (karakter)' ordinal='52' />
+                  <column datatype='boolean' name='Tüm IMG&apos;lerde loading/width/height var mı?' ordinal='53' />
+                  <column datatype='string' name='Güvenlik Skoru (%)' ordinal='54' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='GüvenlikSkoru'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FINAL_WITH_SECURITY_SCORE' name='federated.1ne56w71ev11vh1dkia220gvyti5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ne56w71ev11vh1dkia220gvyti5'>
+            <column datatype='string' name='[Birim Adı]' role='dimension' type='nominal' />
+            <column datatype='integer' datatype-customized='true' name='[Güvenlik Skoru (%)]' role='dimension' type='ordinal' />
+            <column-instance column='[Birim Adı]' derivation='None' name='[none:Birim Adı:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Güvenlik Skoru (%)]' derivation='Sum' name='[sum:Güvenlik Skoru (%):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1ne56w71ev11vh1dkia220gvyti5].[none:Birim Adı:nk]' direction='DESC' using='[federated.1ne56w71ev11vh1dkia220gvyti5].[sum:Güvenlik Skoru (%):qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1ne56w71ev11vh1dkia220gvyti5].[none:Birim Adı:nk]</rows>
+        <cols>[federated.1ne56w71ev11vh1dkia220gvyti5].[sum:Güvenlik Skoru (%):qk]</cols>
+      </table>
+      <simple-id uuid='{52E7A2D0-0D9F-4564-857D-AE02EA098BB0}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8ADD9CB0-F3E9-41EA-AD0A-9A5EA78659BC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{03BA29E0-E9A5-4E9A-8784-36953173E7A2}' />
+    </window>
+    <window class='worksheet' maximized='true' name='GüvenlikSkoru'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ne56w71ev11vh1dkia220gvyti5].[none:Birim Adı:nk]</field>
+            <field>[federated.1ne56w71ev11vh1dkia220gvyti5].[none:Güvenlik Skoru (%):nk]</field>
+            <field>[federated.1ne56w71ev11vh1dkia220gvyti5].[none:Güvenlik Skoru (%):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D2A84A3B-3A11-4EC1-AB72-AFFD23C2F6D7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='GüvenlikSkoru' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
